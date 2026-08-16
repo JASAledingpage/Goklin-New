@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goklin Laundry UMP Purwokerto - Solusi Laundry Bersih, Rapi & Wangi Tahan Lama</title>
+    <meta name="description" content="Layanan laundry kiloan, express, cuci sepatu, tas & bed cover terbaik di sekitar Kampus UMP Dukuhwaluh Purwokerto. 1 Mesin 1 Pelanggan, Gratis Antar-Jemput Kost & Rumah!">
+    
+    <!-- Favicon / Logo Icon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#ecfdf5',
+                            100: '#d1fae5',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                            800: '#065f46',
+                            900: '#064e3b',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'premium': '0 20px 40px -15px rgba(0, 0, 0, 0.07)',
+                        'glow': '0 0 25px -5px rgba(16, 185, 129, 0.4)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-header {
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #059669 0%, #0284c7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-pattern {
+            background-color: #f8fafc;
+            background-image: radial-gradient(#cbd5e1 0.75px, transparent 0.75px), radial-gradient(#cbd5e1 0.75px, #f8fafc 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0, 15px 15px;
+        }
+        .img-zoom {
+            transition: transform 0.5s ease;
+        }
+        .group:hover .img-zoom {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-700 bg-slate-50 antialiased selection:bg-emerald-500 selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-inner flex items-center justify-center gap-2">
+        <span class="bg-amber-400 text-slate-900 text-[10px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider animate-pulse">Promo Khusus UMP</span>
+        <span>🎉 Mahasiswa UMP & Warga Purwokerto: <strong>GRATIS Antar-Jemput</strong> langsung ke kost/rumah!</span>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="sticky top-0 z-50 glass-header border-b border-slate-200/80 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo -->
+                <a href="#beranda" class="flex items-center gap-3 group">
+                    <img src="logo.png" alt="Goklin Laundry Logo" class="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105" onerror="this.onerror=null; this.src='1000441768.png';">
+                    <div class="hidden sm:block">
+                        <span class="font-display font-bold text-xs uppercase tracking-widest text-emerald-700 bg-emerald-100/70 px-2 py-0.5 rounded-md">Cabang Kampus UMP</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+                    <a href="#beranda" class="hover:text-emerald-600 transition-colors">Beranda</a>
+                    <a href="#keunggulan" class="hover:text-emerald-600 transition-colors">Keunggulan</a>
+                    <a href="#layanan" class="hover:text-emerald-600 transition-colors">Layanan & Harga</a>
+                    <a href="#galeri" class="hover:text-emerald-600 transition-colors">Galeri</a>
+                    <a href="#kalkulator" class="hover:text-emerald-600 transition-colors">Kalkulator</a>
+                    <a href="#testimoni" class="hover:text-emerald-600 transition-colors">Testimoni</a>
+                    <a href="#faq" class="hover:text-emerald-600 transition-colors">FAQ</a>
+                </nav>
+
+                <!-- Action Button -->
+                <div class="hidden sm:flex items-center gap-4">
+                    <a href="https://wa.me/6281234567890?text=Halo%20Goklin%20Laundry%20UMP,%20saya%20mau%20order%20laundry%20dan%20request%20penjemputan" target="_blank" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md hover:shadow-glow transition-all duration-300">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Order Antar-Jemput</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2.5 rounded-xl text-slate-600 hover:bg-slate-100 focus:outline-none" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3 shadow-xl">
+            <a href="#beranda" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-600">Beranda</a>
+            <a href="#keunggulan" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-600">Keunggulan</a>
+            <a href="#layanan" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-600">Layanan & Harga</a>
+            <a href="#galeri" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-600">Galeri Workshop</a>
+            <a href="#kalkulator" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-600">Kalkulator Biaya</a>
+            <a href="#testimoni" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-600">Testimoni</a>
+            <a href="#faq" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-600">Tanya Jawab (FAQ)</a>
+            <div class="pt-2">
+                <a href="https://wa.me/6281234567890?text=Halo%20Goklin%20Laundry%20UMP,%20saya%20mau%20order%20laundry%20dan%20request%20penjemputan" target="_blank" class="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-emerald-600 text-white font-bold text-sm shadow-md">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Pesan via WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="relative hero-pattern pt-10 pb-20 lg:pt-16 lg:pb-28 overflow-hidden border-b border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left Hero Copy -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100/80 border border-emerald-300 text-emerald-800 text-xs sm:text-sm font-bold">
+                        <i class="fa-solid fa-shield-halved text-emerald-600"></i>
+                        <span>100% 1 Mesin 1 Pelanggan (Anti Tertukar & Higienis)</span>
+                    </div>
+
+                    <h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-slate-900 tracking-tight leading-[1.15]">
+                        Cucian Bersih, Rapi & Wangi Mewah, <span class="gradient-text">Tinggal Terima Beres!</span>
+                    </h1>
+
+                    <p class="text-slate-600 text-base sm:text-lg lg:text-xl font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        Capek nyuci di tengah jadwal kuliah atau kerjaan padat? Serahkan ke <strong>Goklin Laundry UMP</strong>. Layanan laundry profesional di Purwokerto dengan setrika uap rapi, deterjen anti-bakteri, parfum tahan 14 hari, dan <strong>Free Pick-up & Delivery</strong>!
+                    </p>
+
+                    <!-- Trust Stats -->
+                    <div class="grid grid-cols-3 gap-4 pt-2 pb-2 max-w-lg mx-auto lg:mx-0 border-y border-slate-200">
+                        <div class="text-center lg:text-left">
+                            <div class="font-display font-black text-2xl sm:text-3xl text-emerald-600">5.000+</div>
+                            <div class="text-xs text-slate-500 font-semibold">Pelanggan Puas</div>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <div class="font-display font-black text-2xl sm:text-3xl text-emerald-600">3 Jam</div>
+                            <div class="text-xs text-slate-500 font-semibold">Layanan Express</div>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <div class="font-display font-black text-2xl sm:text-3xl text-emerald-600">4.9/5</div>
+                            <div class="text-xs text-slate-500 font-semibold">Rating Google Maps</div>
+                        </div>
+                    </div>
+
+                    <!-- Call To Actions -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin%20Laundry%20UMP,%20saya%20mau%20request%20penjemputan%20cucian%20sekarang" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-base shadow-xl shadow-emerald-600/20 hover:shadow-glow hover:-translate-y-0.5 transition-all duration-300">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Jemput Cucian Saya Sekarang</span>
+                        </a>
+                        <a href="#layanan" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-2xl bg-white hover:bg-slate-100 text-slate-800 font-bold text-base border border-slate-300 shadow-sm transition-all duration-200">
+                            <i class="fa-solid fa-tags text-emerald-600"></i>
+                            <span>Lihat Daftar Harga</span>
+                        </a>
+                    </div>
+
+                    <div class="flex items-center justify-center lg:justify-start gap-4 text-xs font-medium text-slate-500">
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-500"></i> Tanpa Minimal Order</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-500"></i> Garansi Cuci Ulang</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-500"></i> Bayar QRIS/Cash</span>
+                    </div>
+                </div>
+
+                <!-- Right Hero Feature Card with Brand Visual -->
+                <div class="lg:col-span-5 relative">
+                    <div class="absolute -top-10 -right-10 w-72 h-72 bg-emerald-400/20 rounded-full blur-3xl -z-10"></div>
+                    <div class="absolute -bottom-10 -left-10 w-72 h-72 bg-cyan-400/20 rounded-full blur-3xl -z-10"></div>
+
+                    <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-100 relative">
+                        <!-- Card Header with Logo -->
+                        <div class="flex items-center justify-between pb-5 border-b border-slate-100">
+                            <div class="flex items-center gap-3">
+                                <img src="logo.png" alt="Goklin Laundry" class="h-10 w-auto object-contain" onerror="this.onerror=null; this.src='1000441768.png';">
+                                <div>
+                                    <h2 class="font-display font-bold text-slate-900 text-base">Booking Antar-Jemput</h2>
+                                    <p class="text-[11px] text-slate-500">Kurir Goklin langsung meluncur ke kost Anda</p>
+                                </div>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-extrabold flex items-center gap-1">
+                                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                                Online
+                            </span>
+                        </div>
+
+                        <!-- Quick Order Form to WA -->
+                        <form id="hero-quick-order" class="space-y-4 pt-5" onsubmit="handleHeroSubmit(event)">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Nama Lengkap / Panggilan</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-user absolute left-3.5 top-3.5 text-slate-400 text-sm"></i>
+                                    <input type="text" id="hero-name" required placeholder="Contoh: Rian (Kost Pondok UMP)" class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 outline-none text-sm font-medium transition-all">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Alamat / Kost & Patokan</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-location-dot absolute left-3.5 top-3.5 text-slate-400 text-sm"></i>
+                                    <input type="text" id="hero-address" required placeholder="Contoh: Gang Kenanga No. 4, Dekat Gerbang UMP" class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 outline-none text-sm font-medium transition-all">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Jenis Layanan</label>
+                                    <select id="hero-service" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 outline-none text-sm font-medium transition-all bg-white">
+                                        <option value="Cuci Komplit Reguler">Cuci Komplit Reguler</option>
+                                        <option value="Express 1 Hari">Express 1 Hari (Kilat)</option>
+                                        <option value="Sameday 6 Jam">Sameday (6 Jam)</option>
+                                        <option value="Cuci Sepatu / Tas">Cuci Sepatu / Tas</option>
+                                        <option value="Bed Cover / Selimut">Bed Cover / Selimut</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">Estimasi Berat / Qty</label>
+                                    <input type="text" id="hero-qty" placeholder="Misal: 5 Kg / 2 Pasang" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 outline-none text-sm font-medium transition-all">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold text-sm shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 transition-all">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
+                                <span>Pesan Antar-Jemput Otomatis</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition / 6 Keunggulan Utama -->
+    <section id="keunggulan" class="py-20 bg-white border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-emerald-600 font-bold text-sm uppercase tracking-wider bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Standar Kualitas Tertinggi</span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900">
+                    Kenapa Ribuan Mahasiswa & Warga UMP Memilih Goklin Laundry?
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    Kami tidak sekadar mencuci pakaian, tapi merawat setiap helai kain Anda dengan standar kebersihan premium.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:border-emerald-200 hover:shadow-premium hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-users-slash"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-slate-900 mb-3">1 Mesin 1 Pelanggan</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Cucian Anda tidak pernah dicampur dengan pakaian orang lain! 100% higienis, anti bau apek, dan bebas risiko baju tertukar.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:border-emerald-200 hover:shadow-premium hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-teal-100 text-teal-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-temperature-arrow-up"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Setrika Uap Boiler Rapi</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Pakaian disetrika dengan uap boiler bertekanan tinggi. Hasil halus sempurna, serat kain tidak mengkilap atau rusak.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:border-emerald-200 hover:shadow-premium hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-cyan-100 text-cyan-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-cyan-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-spray-can-sparkles"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Parfum Grade A Tahan 14 Hari</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Menggunakan bibit parfum import grade premium tanpa alkohol berlebih. Pilihan aroma mewah (Sakura, Ocean Fresh, Downy, Akasia).
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:border-emerald-200 hover:shadow-premium hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-stopwatch-20"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Layanan Kilat 3 & 6 Jam</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Punya acara mendadak, sidang skripsi, atau outfit favorit mau dipakai nanti malam? Pilih layanan Sameday / Super Express kami!
+                    </p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:border-emerald-200 hover:shadow-premium hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-amber-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-motorcycle"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Gratis Antar-Jemput Kost</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Area Kampus 1 & 2 UMP, Dukuhwaluh, Ledug, Kembaran, Arcawinangun, dan sekitarnya siap kami jemput langsung ke kost.
+                    </p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:border-emerald-200 hover:shadow-premium hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-rose-100 text-rose-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Garansi Cuci Ulang 100%</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Jika hasil cucian kurang bersih, kurang rapi, atau ada noda yang tertinggal, kami cuci ulang secara GRATIS!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Pricing Tabs (With Photos & Icons) -->
+    <section id="layanan" class="py-20 bg-slate-50 border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 space-y-4">
+                <span class="text-emerald-600 font-bold text-sm uppercase tracking-wider bg-emerald-100/60 px-3 py-1 rounded-full border border-emerald-200">Daftar Layanan & Harga</span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900">
+                    Pilihan Paket Laundry Terbaik Goklin UMP
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    Harga transparan, bersahabat untuk mahasiswa dengan kualitas hasil cucian setara laundry hotel bintang lima.
+                </p>
+
+                <!-- Tab Navigation Buttons -->
+                <div class="flex flex-wrap items-center justify-center gap-2 pt-4">
+                    <button onclick="switchTab('kiloan')" id="tab-btn-kiloan" class="tab-btn active px-5 py-2.5 rounded-xl font-bold text-sm transition-all bg-emerald-600 text-white shadow-md">
+                        <i class="fa-solid fa-weight-hanging mr-1.5"></i> Cuci Kiloan
+                    </button>
+                    <button onclick="switchTab('satuan')" id="tab-btn-satuan" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all bg-white text-slate-700 hover:bg-slate-100 border border-slate-200">
+                        <i class="fa-solid fa-shirt mr-1.5"></i> Cuci Satuan & Bedding
+                    </button>
+                    <button onclick="switchTab('shoes')" id="tab-btn-shoes" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all bg-white text-slate-700 hover:bg-slate-100 border border-slate-200">
+                        <i class="fa-solid fa-shoe-prints mr-1.5"></i> Sepatu, Tas & Helm
+                    </button>
+                    <button onclick="switchTab('paket')" id="tab-btn-paket" class="tab-btn px-5 py-2.5 rounded-xl font-bold text-sm transition-all bg-white text-slate-700 hover:bg-slate-100 border border-slate-200">
+                        <i class="fa-solid fa-gem mr-1.5"></i> Member & Paket Hemat
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tab Content 1: Kiloan -->
+            <div id="tab-kiloan" class="tab-pane grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=800&q=80" alt="Cuci Komplit Reguler" class="w-full h-full object-cover img-zoom">
+                            <div class="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white text-xs font-bold px-3 py-1 rounded-full">
+                                Reguler 2 Hari
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-display font-bold text-2xl text-slate-900">Cuci Komplit Reguler</h3>
+                            <p class="text-slate-500 text-xs mt-1">Cuci + Kering + Setrika Uap Boiler + Parfum + Packing Rapi</p>
+                            
+                            <div class="my-5">
+                                <span class="text-3xl font-black text-slate-900">Rp 6.000</span>
+                                <span class="text-slate-500 font-semibold text-sm">/ Kg</span>
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> 1 Mesin 1 Nota (Tidak dicampur)</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Setrika Uap Boiler anti gosong</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Parfum premium tahan lama</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Gratis antar-jemput area UMP</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20order%20Cuci%20Komplit%20Reguler" target="_blank" class="w-full block text-center py-3 rounded-xl bg-slate-100 hover:bg-emerald-600 hover:text-white text-slate-800 font-bold text-sm transition-colors">
+                            Pilih Paket Reguler
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Most Popular -->
+                <div class="bg-white rounded-3xl overflow-hidden border-2 border-emerald-500 shadow-xl relative flex flex-col justify-between transform md:-translate-y-2 group">
+                    <div class="absolute top-3 right-3 z-10 bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-[11px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
+                        ⭐ Favorit Mahasiswa
+                    </div>
+                    <div>
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1545173168-9f1947eebb7f?auto=format&fit=crop&w=800&q=80" alt="Express 1 Hari" class="w-full h-full object-cover img-zoom">
+                            <div class="absolute top-3 left-3 bg-emerald-700/90 backdrop-blur-md text-white text-xs font-bold px-3 py-1 rounded-full">
+                                Kilat 24 Jam
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-display font-bold text-2xl text-slate-900">Express 1 Hari (24 Jam)</h3>
+                            <p class="text-slate-500 text-xs mt-1">Hari ini masuk, besok sudah siap pakai rapi dan wangi semerbak</p>
+                            
+                            <div class="my-5">
+                                <span class="text-3xl font-black text-emerald-600">Rp 9.000</span>
+                                <span class="text-slate-500 font-semibold text-sm">/ Kg</span>
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Prioritas antrean pengerjaan</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> 1 Mesin 1 Pelanggan</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Setrika Uap Boiler + Pewangi Grade A</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Packing seal kedap udara</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Gratis Jemput & Antar Kost UMP</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20order%20Express%201%20Hari" target="_blank" class="w-full block text-center py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md transition-colors">
+                            Pesan Express 24 Jam
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Sameday -->
+                <div class="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="relative h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=800&q=80" alt="Sameday Kilat" class="w-full h-full object-cover img-zoom">
+                            <div class="absolute top-3 left-3 bg-cyan-700/90 backdrop-blur-md text-white text-xs font-bold px-3 py-1 rounded-full">
+                                Super Kilat 6-8 Jam
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-display font-bold text-2xl text-slate-900">Sameday (6 - 8 Jam)</h3>
+                            <p class="text-slate-500 text-xs mt-1">Pagi kirim cucian, sore / malam sudah kembali bersih dan rapi</p>
+                            
+                            <div class="my-5">
+                                <span class="text-3xl font-black text-slate-900">Rp 12.000</span>
+                                <span class="text-slate-500 font-semibold text-sm">/ Kg</span>
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Super Express Dedicated Machine</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> 1 Mesin Langsung Diproses</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Setrika Uap Cepat & Rapi Maksimal</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Prioritas Pengantaran Kurir</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20order%20Sameday%20Kilat" target="_blank" class="w-full block text-center py-3 rounded-xl bg-slate-100 hover:bg-emerald-600 hover:text-white text-slate-800 font-bold text-sm transition-colors">
+                            Pilih Sameday Kilat
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 2: Satuan & Bedding -->
+            <div id="tab-satuan" class="tab-pane hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-400 transition-all flex flex-col justify-between group">
+                    <div>
+                        <div class="h-40 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80" alt="Bed Cover" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <div class="p-5">
+                            <h4 class="font-display font-bold text-lg text-slate-900">Bed Cover Set</h4>
+                            <p class="text-xs text-slate-500 mb-3">Ukuran Single s/d King Size, cuci bersih bebas tungau & bulu halus.</p>
+                            <div class="font-black text-xl text-emerald-600">Mulai Rp 20.000</div>
+                        </div>
+                    </div>
+                    <div class="p-5 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20cuci%20Bed%20Cover" target="_blank" class="block w-full text-center py-2 rounded-lg bg-slate-100 hover:bg-emerald-600 hover:text-white text-xs font-bold transition-colors">Order Bed Cover</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-400 transition-all flex flex-col justify-between group">
+                    <div>
+                        <div class="h-40 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80" alt="Jas Blazer" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <div class="p-5">
+                            <h4 class="font-display font-bold text-lg text-slate-900">Jas / Blazer Kuliah</h4>
+                            <p class="text-xs text-slate-500 mb-3">Perawatan dry clean / wet clean halus tanpa merusak bantalan bahu.</p>
+                            <div class="font-black text-xl text-emerald-600">Rp 15.000 <span class="text-xs font-normal text-slate-400">/ pcs</span></div>
+                        </div>
+                    </div>
+                    <div class="p-5 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20cuci%20Jas%20Blazer" target="_blank" class="block w-full text-center py-2 rounded-lg bg-slate-100 hover:bg-emerald-600 hover:text-white text-xs font-bold transition-colors">Order Jas/Blazer</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-400 transition-all flex flex-col justify-between group">
+                    <div>
+                        <div class="h-40 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80" alt="Gamis Kebaya" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <div class="p-5">
+                            <h4 class="font-display font-bold text-lg text-slate-900">Gamis / Kebaya / Dress</h4>
+                            <p class="text-xs text-slate-500 mb-3">Treatment pakaian pesta atau berpayet dengan deterjen khusus lembut.</p>
+                            <div class="font-black text-xl text-emerald-600">Mulai Rp 15.000</div>
+                        </div>
+                    </div>
+                    <div class="p-5 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20cuci%20Gamis%20Kebaya" target="_blank" class="block w-full text-center py-2 rounded-lg bg-slate-100 hover:bg-emerald-600 hover:text-white text-xs font-bold transition-colors">Order Gamis/Dress</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-400 transition-all flex flex-col justify-between group">
+                    <div>
+                        <div class="h-40 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=600&q=80" alt="Selimut Boneka" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <div class="p-5">
+                            <h4 class="font-display font-bold text-lg text-slate-900">Selimut & Boneka</h4>
+                            <p class="text-xs text-slate-500 mb-3">Cuci mendalam, pengeringan tuntas anti bau lembap, wangi fresh.</p>
+                            <div class="font-black text-xl text-emerald-600">Mulai Rp 10.000</div>
+                        </div>
+                    </div>
+                    <div class="p-5 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20cuci%20Selimut%20Boneka" target="_blank" class="block w-full text-center py-2 rounded-lg bg-slate-100 hover:bg-emerald-600 hover:text-white text-xs font-bold transition-colors">Order Selimut/Boneka</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 3: Shoes, Bag, Helm -->
+            <div id="tab-shoes" class="tab-pane hidden grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=800&q=80" alt="Shoes Care" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-display font-bold text-xl text-slate-900">Shoes Deep Clean</h4>
+                            <p class="text-slate-500 text-xs mt-1">Sneakers, Kanvas, Suede, Leather. Cuci total upper, midsole, insole & tali.</p>
+                            <div class="my-4 font-black text-2xl text-slate-900">Rp 25.000 <span class="text-xs font-normal text-slate-400">/ pasang</span></div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20treatment%20Cuci%20Sepatu" target="_blank" class="block w-full text-center py-3 rounded-xl bg-slate-100 hover:bg-emerald-600 hover:text-white font-bold text-sm transition-colors">Order Treatment Sepatu</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80" alt="Tas Ransel" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-display font-bold text-xl text-slate-900">Tas & Ransel Kuliah</h4>
+                            <p class="text-slate-500 text-xs mt-1">Tas ransel laptop, tote bag, sling bag, hingga tas carrier gunung.</p>
+                            <div class="my-4 font-black text-2xl text-slate-900">Mulai Rp 20.000</div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20cuci%20Tas%20Ransel" target="_blank" class="block w-full text-center py-3 rounded-xl bg-slate-100 hover:bg-emerald-600 hover:text-white font-bold text-sm transition-colors">Order Cuci Tas</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80" alt="Cuci Helm" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-display font-bold text-xl text-slate-900">Cuci Helm Anti-Bakteri</h4>
+                            <p class="text-slate-500 text-xs mt-1">Busa helm dicuci bersih, disterilkan dari kuman & ketombe, wangi fresh.</p>
+                            <div class="my-4 font-black text-2xl text-slate-900">Rp 20.000 <span class="text-xs font-normal text-slate-400">/ helm</span></div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20cuci%20Helm" target="_blank" class="block w-full text-center py-3 rounded-xl bg-slate-100 hover:bg-emerald-600 hover:text-white font-bold text-sm transition-colors">Order Cuci Helm</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 4: Paket Langganan Mahasiswa -->
+            <div id="tab-paket" class="tab-pane hidden grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition-all">
+                    <div class="text-xs font-extrabold uppercase text-emerald-600 mb-1">Paket 30 Kg</div>
+                    <h4 class="font-display font-bold text-xl text-slate-900">Paket Hemat Kost</h4>
+                    <p class="text-slate-500 text-xs mt-1">Masa aktif 30 hari, cocok untuk kebutuhan laundry 1 bulan.</p>
+                    <div class="my-5">
+                        <span class="text-2xl font-black text-slate-900">Rp 165.000</span>
+                        <span class="text-xs text-emerald-600 font-bold block">(Hanya Rp 5.500/Kg)</span>
+                    </div>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Hemat Rp 15.000</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Bebas kirim berkali-kali</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Gratis jemput prioritas</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20daftar%20Paket%20Hemat%2030Kg" target="_blank" class="block w-full text-center py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs">Langganan Paket 30Kg</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl border-2 border-emerald-500 shadow-xl relative">
+                    <div class="absolute -top-3 right-6 bg-emerald-600 text-white text-[10px] font-black px-3 py-1 rounded-full uppercase">Paling Untung</div>
+                    <div class="text-xs font-extrabold uppercase text-emerald-600 mb-1">Paket 50 Kg</div>
+                    <h4 class="font-display font-bold text-xl text-slate-900">Paket Sahabat Kost</h4>
+                    <p class="text-slate-500 text-xs mt-1">Bisa dipakai bersama teman sekamar kost / kontrakan (45 hari).</p>
+                    <div class="my-5">
+                        <span class="text-2xl font-black text-emerald-600">Rp 260.000</span>
+                        <span class="text-xs text-emerald-700 font-bold block">(Hanya Rp 5.200/Kg)</span>
+                    </div>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Hemat Rp 40.000</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Pilihan aroma parfum eksklusif</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Gratis Cuci 1 Pasang Sepatu</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20daftar%20Paket%20Sahabat%2050Kg" target="_blank" class="block w-full text-center py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow-md">Langganan Paket 50Kg</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition-all">
+                    <div class="text-xs font-extrabold uppercase text-slate-500 mb-1">Paket 100 Kg</div>
+                    <h4 class="font-display font-bold text-xl text-slate-900">Paket Sultan Kontrakan</h4>
+                    <p class="text-slate-500 text-xs mt-1">Masa aktif 90 hari, ideal untuk keluarga kecil atau rumah sewa.</p>
+                    <div class="my-5">
+                        <span class="text-2xl font-black text-slate-900">Rp 490.000</span>
+                        <span class="text-xs text-emerald-600 font-bold block">(Hanya Rp 4.900/Kg)</span>
+                    </div>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Hemat Rp 110.000</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Prioritas penjemputan VIP</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-1.5"></i> Gratis Cuci 1 Bed Cover King</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Goklin,%20saya%20mau%20daftar%20Paket%20Sultan%20100Kg" target="_blank" class="block w-full text-center py-2.5 rounded-xl bg-slate-800 text-white font-bold text-xs hover:bg-slate-900">Langganan Paket 100Kg</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Visual Gallery Section -->
+    <section id="galeri" class="py-20 bg-white border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-emerald-600 font-bold text-sm uppercase tracking-wider bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Kualitas Pengerjaan</span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900">
+                    Galeri Workshop & Standar Kerja Goklin
+                </h2>
+                <p class="text-slate-600 text-base">
+                    Proses pencucian dengan mesin modern, uap boiler bertekanan, dan kontrol kualitas ketat.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+                <div class="relative rounded-2xl overflow-hidden h-52 sm:h-64 shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1545173168-9f1947eebb7f?auto=format&fit=crop&w=600&q=80" alt="Mesin Cuci Modern" class="w-full h-full object-cover img-zoom">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-4">
+                        <span class="text-white text-xs sm:text-sm font-bold">1 Mesin 1 Pelanggan</span>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden h-52 sm:h-64 shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=600&q=80" alt="Setrika Uap Boiler" class="w-full h-full object-cover img-zoom">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-4">
+                        <span class="text-white text-xs sm:text-sm font-bold">Setrika Uap Presisi</span>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden h-52 sm:h-64 shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=600&q=80" alt="Treatment Sepatu" class="w-full h-full object-cover img-zoom">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-4">
+                        <span class="text-white text-xs sm:text-sm font-bold">Cuci Sepatu Premium</span>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden h-52 sm:h-64 shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=600&q=80" alt="Packing Rapi & Wangi" class="w-full h-full object-cover img-zoom">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end p-4">
+                        <span class="text-white text-xs sm:text-sm font-bold">Packing Seal Higienis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Calculator & Direct WA Order -->
+    <section id="kalkulator" class="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-950 text-white relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-12 space-y-3">
+                <span class="text-emerald-400 font-bold text-xs uppercase tracking-wider bg-emerald-950/80 px-3 py-1 rounded-full border border-emerald-700">Hitung Cepat & Transparan</span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white">
+                    Kalkulator Estimasi Biaya Laundry
+                </h2>
+                <p class="text-slate-300 text-sm sm:text-base">
+                    Pilih jenis layanan, masukkan perkiraan berat atau jumlah pakaian, dan langsung kirimkan pesanan ke kurir Goklin Laundry UMP via WhatsApp.
+                </p>
+            </div>
+
+            <div class="bg-white/10 backdrop-blur-md rounded-3xl p-6 sm:p-10 border border-white/10 shadow-2xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    
+                    <!-- Left: Inputs -->
+                    <div class="space-y-5">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Pilih Paket Layanan</label>
+                            <select id="calc-service" onchange="calculatePrice()" class="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white font-medium focus:border-emerald-400 focus:outline-none transition-colors text-sm">
+                                <option value="6000" data-unit="Kg" data-name="Cuci Komplit Reguler (2 Hari)">Cuci Komplit Reguler - Rp 6.000/Kg</option>
+                                <option value="9000" data-unit="Kg" data-name="Express 1 Hari (24 Jam)">Express 1 Hari - Rp 9.000/Kg</option>
+                                <option value="12000" data-unit="Kg" data-name="Sameday (6-8 Jam)">Sameday Kilat - Rp 12.000/Kg</option>
+                                <option value="20000" data-unit="Pcs" data-name="Cuci Bed Cover Set">Cuci Bed Cover - Rp 20.000/Pcs</option>
+                                <option value="25000" data-unit="Pasang" data-name="Deep Clean Sepatu">Cuci Sepatu - Rp 25.000/Pasang</option>
+                                <option value="20000" data-unit="Pcs" data-name="Cuci Tas Ransel">Cuci Tas Ransel - Rp 20.000/Pcs</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-slate-300">Jumlah / Berat (<span id="calc-unit-label">Kg</span>)</label>
+                                <span id="calc-qty-val" class="font-display font-black text-emerald-400 text-lg">5 Kg</span>
+                            </div>
+                            <input type="range" id="calc-qty" min="1" max="25" value="5" step="1" oninput="updateQty(this.value)" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500">
+                            <div class="flex justify-between text-[11px] text-slate-400 mt-1">
+                                <span>1</span>
+                                <span>5</span>
+                                <span>10</span>
+                                <span>15</span>
+                                <span>20</span>
+                                <span>25+</span>
+                            </div>
+                        </div>
+
+                        <!-- Student Bonus Toggle -->
+                        <div class="bg-emerald-900/40 border border-emerald-500/30 rounded-xl p-4 flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-graduation-cap text-emerald-400 text-xl"></i>
+                                <div>
+                                    <div class="text-xs font-bold text-white">Saya Mahasiswa UMP (KTM)</div>
+                                    <div class="text-[11px] text-emerald-300">Dapatkan bonus gratis upgrade parfum premium</div>
+                                </div>
+                            </div>
+                            <input type="checkbox" id="calc-student" checked class="w-5 h-5 rounded accent-emerald-500 cursor-pointer">
+                        </div>
+                    </div>
+
+                    <!-- Right: Summary & Action -->
+                    <div class="bg-slate-900/80 rounded-2xl p-6 border border-slate-700/80 flex flex-col justify-between space-y-6">
+                        <div>
+                            <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Ringkasan Estimasi Biaya</span>
+                            <div class="mt-3 space-y-2 text-sm border-b border-slate-800 pb-4">
+                                <div class="flex justify-between">
+                                    <span class="text-slate-400" id="calc-summary-service">Cuci Komplit Reguler</span>
+                                    <span class="font-semibold text-white" id="calc-summary-qty">5 Kg</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-slate-400">Ongkir Antar-Jemput Area UMP</span>
+                                    <span class="font-bold text-emerald-400 uppercase text-xs">GRATIS (Rp 0)</span>
+                                </div>
+                            </div>
+
+                            <div class="pt-4 flex items-baseline justify-between">
+                                <span class="text-sm font-bold text-slate-300">Total Estimasi:</span>
+                                <div class="text-right">
+                                    <div class="font-display font-black text-3xl sm:text-4xl text-emerald-400" id="calc-total">Rp 30.000</div>
+                                    <div class="text-[10px] text-slate-400">*Bisa disesuaikan setelah penimbangan presisi di workshop</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Submit to WhatsApp Button -->
+                        <button onclick="orderViaCalc()" class="w-full py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-base shadow-lg shadow-emerald-500/20 hover:shadow-glow flex items-center justify-center gap-2 transition-all">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Kirim Detail Ini ke WhatsApp</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works (4 Langkah Mudah) -->
+    <section class="py-20 bg-white border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-emerald-600 font-bold text-sm uppercase tracking-wider bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Sederhana & Cepat</span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900">
+                    4 Langkah Mudah Nyucikan Pakaian di Goklin
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    Anda tidak perlu buang waktu ke tempat laundry, kurir kami yang jemput dan antar kembali ke tempat Anda.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+                <!-- Step 1 -->
+                <div class="text-center space-y-4 relative">
+                    <div class="w-16 h-16 rounded-2xl bg-emerald-50 border-2 border-emerald-500 text-emerald-700 font-display font-black text-2xl flex items-center justify-center mx-auto shadow-sm">
+                        1
+                    </div>
+                    <h3 class="font-display font-bold text-lg text-slate-900">Chat WhatsApp / Booking</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Kirimkan nama, alamat kost/rumah, serta paket layanan yang diinginkan melalui WhatsApp.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center space-y-4 relative">
+                    <div class="w-16 h-16 rounded-2xl bg-emerald-50 border-2 border-emerald-500 text-emerald-700 font-display font-black text-2xl flex items-center justify-center mx-auto shadow-sm">
+                        2
+                    </div>
+                    <h3 class="font-display font-bold text-lg text-slate-900">Kurir Jemput Cucian</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Kurir kami datang ke lokasi Anda, menimbang cucian secara transparan dengan timbangan digital.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center space-y-4 relative">
+                    <div class="w-16 h-16 rounded-2xl bg-emerald-50 border-2 border-emerald-500 text-emerald-700 font-display font-black text-2xl flex items-center justify-center mx-auto shadow-sm">
+                        3
+                    </div>
+                    <h3 class="font-display font-bold text-lg text-slate-900">Proses Cuci & Setrika Uap</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Dicuci higienis 1 mesin 1 nota, disetrika uap boiler, disemprot parfum grade A, dan dipacking rapi.
+                    </p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="text-center space-y-4 relative">
+                    <div class="w-16 h-16 rounded-2xl bg-emerald-600 text-white font-display font-black text-2xl flex items-center justify-center mx-auto shadow-lg shadow-emerald-600/30">
+                        4
+                    </div>
+                    <h3 class="font-display font-bold text-lg text-slate-900">Antar Kembali & Selesai</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">
+                        Pakaian diantar kembali tepat waktu, wangi tahan lama, dan siap dipakai kuliah atau kerja!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof & Testimonials -->
+    <section id="testimoni" class="py-20 bg-slate-50 border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-emerald-600 font-bold text-sm uppercase tracking-wider bg-emerald-100/70 px-3 py-1 rounded-full border border-emerald-200">Ulasan Nyata Pelanggan</span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900">
+                    Kata Mereka yang Sudah Percaya pada Goklin
+                </h2>
+                <p class="text-slate-600 text-base sm:text-lg">
+                    Kepuasan mahasiswa UMP dan warga Banyumas adalah prioritas utama setiap helai cucian.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 text-sm gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm italic leading-relaxed">
+                            "Paling penyelamat pas musim skripsi! Nggak ada waktu nyuci, tinggal WA Goklin langsung dijemput di depan kamar kost Dukuhwaluh. Wanginya awet banget dan bajunya disetrika licin nggak ada lipatan kusut."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-6 border-t border-slate-100 mt-6">
+                        <div class="w-11 h-11 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold font-display text-base">
+                            DA
+                        </div>
+                        <div>
+                            <div class="font-display font-bold text-slate-900 text-sm">Dinda Ayu</div>
+                            <div class="text-xs text-slate-500">Mahasiswi Farmasi UMP</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 text-sm gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm italic leading-relaxed">
+                            "Sepatu sneakers putih saya yang tadinya kusam dan kena lumpur pas KKN langsung jadi cling bersih lagi kaya baru beli. Harganya buat mahasiswa ramah banget di kantong. Recommended pol!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-6 border-t border-slate-100 mt-6">
+                        <div class="w-11 h-11 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center font-bold font-display text-base">
+                            FP
+                        </div>
+                        <div>
+                            <div class="font-display font-bold text-slate-900 text-sm">Fajar Pratama</div>
+                            <div class="text-xs text-slate-500">Mahasiswa Teknik UMP</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 text-sm gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm italic leading-relaxed">
+                            "Yang paling saya suka itu sistem 1 mesin 1 pelanggan. Jadi nggak was-was baju kantor atau gamis ketularan bau apek cucian orang lain. Admin WA-nya fast respon dan ramah banget."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-6 border-t border-slate-100 mt-6">
+                        <div class="w-11 h-11 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center font-bold font-display text-base">
+                            SW
+                        </div>
+                        <div>
+                            <div class="font-display font-bold text-slate-900 text-sm">Siti Wulandari</div>
+                            <div class="text-xs text-slate-500">Warga Kembaran, Purwokerto</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section (Accordion) -->
+    <section id="faq" class="py-20 bg-white border-b border-slate-200/80">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 space-y-4">
+                <span class="text-emerald-600 font-bold text-sm uppercase tracking-wider bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Informasi Lengkap</span>
+                <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900">
+                    Pertanyaan yang Sering Diajukan (FAQ)
+                </h2>
+                <p class="text-slate-600 text-base">
+                    Semua jawaban seputar sistem pengerjaan, jangkauan antar jemput, dan garansi kami.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                    <button class="w-full text-left px-6 py-5 bg-slate-50 hover:bg-slate-100 flex items-center justify-between font-display font-bold text-slate-900 text-base" onclick="toggleFaq(this)">
+                        <span>Apakah cucian saya dicampur dengan pakaian pelanggan lain?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 py-4 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100 hidden">
+                        <strong>Sama sekali tidak!</strong> Kami menerapkan standar operasional ketat <em>1 Mesin untuk 1 Nota Pelanggan</em>. Setiap cucian diproses secara eksklusif dalam satu mesin cuci dan pengering tersendiri untuk menjaga kebersihan maksimal dan mencegah baju tertukar.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                    <button class="w-full text-left px-6 py-5 bg-slate-50 hover:bg-slate-100 flex items-center justify-between font-display font-bold text-slate-900 text-base" onclick="toggleFaq(this)">
+                        <span>Area mana saja yang mendapatkan layanan Gratis Antar-Jemput?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 py-4 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100 hidden">
+                        Layanan antar-jemput gratis mencakup seluruh area <strong>Kampus 1 & Kampus 2 UMP, Dukuhwaluh, Ledug, Kembaran, Arcawinangun, Sokaraja, Purwokerto Timur</strong>, dan sekitarnya. Cukup kirimkan lokasi/shareloc via WhatsApp ke kurir kami.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                    <button class="w-full text-left px-6 py-5 bg-slate-50 hover:bg-slate-100 flex items-center justify-between font-display font-bold text-slate-900 text-base" onclick="toggleFaq(this)">
+                        <span>Berapa lama waktu pengerjaan laundry?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 py-4 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100 hidden">
+                        Kami menyediakan berbagai pilihan durasi:
+                        <ul class="list-disc pl-5 mt-2 space-y-1">
+                            <li><strong>Super Express (3-6 Jam):</strong> Pagi masuk, siang/sore siap.</li>
+                            <li><strong>Express 1 Hari (24 Jam):</strong> Masuk hari ini, besok selesai.</li>
+                            <li><strong>Reguler (2 Hari):</strong> Pilihan paling ekonomis dengan hasil maksimal.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                    <button class="w-full text-left px-6 py-5 bg-slate-50 hover:bg-slate-100 flex items-center justify-between font-display font-bold text-slate-900 text-base" onclick="toggleFaq(this)">
+                        <span>Metode pembayaran apa saja yang diterima?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 py-4 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100 hidden">
+                        Kami menerima <strong>Cash saat pengantaran (COD)</strong>, serta pembayaran non-tunai via <strong>QRIS Semua Bank & E-Wallet</strong> (BCA, Mandiri, BRI, BNI, GoPay, OVO, ShopeePay, DANA).
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden transition-all duration-200">
+                    <button class="w-full text-left px-6 py-5 bg-slate-50 hover:bg-slate-100 flex items-center justify-between font-display font-bold text-slate-900 text-base" onclick="toggleFaq(this)">
+                        <span>Bagaimana klaim garansi jika cucian kurang bersih atau tidak rapi?</span>
+                        <i class="fa-solid fa-chevron-down text-emerald-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="px-6 py-4 bg-white text-slate-600 text-sm leading-relaxed border-t border-slate-100 hidden">
+                        Hubungi admin WhatsApp kami maksimal 1x24 jam setelah cucian diterima. Kurir kami akan mengambil kembali pakaian tersebut dan memproses <strong>Cuci Ulang Gratis 100%</strong> tanpa biaya tambahan.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section id="kontak" class="py-20 bg-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-emerald-400 font-bold text-xs uppercase tracking-wider bg-emerald-950 px-3 py-1 rounded-full border border-emerald-800">Outlet & Workshop</span>
+                    <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white">
+                        Kunjungi Workshop Kami atau Hubungi Kurir
+                    </h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        Berlokasi strategis di kawasan kampus UMP Purwokerto. Anda bisa datang langsung drop cucian atau gunakan fasilitas kurir jemput gratis kami.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-900/60 border border-emerald-700/50 flex items-center justify-center text-emerald-400 shrink-0 mt-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">Alamat Outlet:</h4>
+                                <p class="text-slate-300 text-xs sm:text-sm">Jl. Raya Dukuhwaluh (Area Kampus 1 UMP), Kembaran, Purwokerto, Banyumas, Jawa Tengah 53182</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-900/60 border border-emerald-700/50 flex items-center justify-center text-emerald-400 shrink-0 mt-1">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">Jam Operasional:</h4>
+                                <p class="text-slate-300 text-xs sm:text-sm">Buka Setiap Hari: 07.00 - 21.00 WIB (Layanan Penjemputan s/d 20.00 WIB)</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-900/60 border border-emerald-700/50 flex items-center justify-center text-emerald-400 shrink-0 mt-1">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white text-sm">Customer Care & Antar Jemput:</h4>
+                                <p class="text-slate-300 text-xs sm:text-sm">+62 812-3456-7890 (Fast Response WhatsApp)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4">
+                        <a href="https://wa.me/6281234567890?text=Halo%20Goklin%20Laundry%20UMP,%20mau%20tanya%20info%20lokasi%20dan%20penjemputan" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm shadow-lg transition-all">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Chat Langsung dengan Kami</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Google Maps Embed -->
+                <div class="lg:col-span-6">
+                    <div class="bg-slate-800 rounded-3xl p-3 border border-slate-700 shadow-2xl overflow-hidden">
+                        <div class="relative w-full h-80 rounded-2xl overflow-hidden bg-slate-700">
+                            <iframe 
+                                title="Peta Lokasi Goklin Laundry UMP Purwokerto"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.93294326585!2d109.2552834!3d-7.4116524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655ea7df8c17b5%3A0xc301222e9644fcf!2sUniversitas%20Muhammadiyah%20Purwokerto!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <div class="p-3 text-center text-xs text-slate-400">
+                            <i class="fa-solid fa-map-pin text-emerald-400 mr-1"></i> Melayani penjemputan seluruh radius 5-7 Km dari Kampus UMP Purwokerto
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Call to Action Banner -->
+    <section class="py-16 bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-700 text-white text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6">
+            <h2 class="font-display font-black text-3xl sm:text-4xl lg:text-5xl tracking-tight leading-tight">
+                Pakaian Menumpuk? Biarkan Goklin yang Bereskan!
+            </h2>
+            <p class="text-emerald-100 text-base sm:text-lg max-w-2xl mx-auto">
+                Nikmati waktu santai dan fokus kuliah tanpa beban cucian kotor. Pesan layanan antar-jemput sekarang dan rasakan standar laundry profesional!
+            </p>
+            <div class="pt-2">
+                <a href="https://wa.me/6281234567890?text=Halo%20Goklin%20Laundry%20UMP,%20tolong%20jemput%20cucian%20saya%20sekarang" target="_blank" class="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-white hover:bg-slate-100 text-slate-900 font-black text-lg shadow-2xl hover:scale-105 transition-transform duration-300">
+                    <i class="fa-brands fa-whatsapp text-2xl text-emerald-600"></i>
+                    <span>Hubungi WhatsApp Sekarang (Fast Response)</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 text-xs sm:text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-slate-800">
+                
+                <div class="space-y-4 md:col-span-2">
+                    <div class="flex items-center gap-3">
+                        <img src="logo.png" alt="Goklin Laundry Logo" class="h-10 w-auto object-contain brightness-110" onerror="this.onerror=null; this.src='1000441768.png';">
+                    </div>
+                    <p class="text-slate-400 text-xs max-w-sm leading-relaxed">
+                        Pusat layanan laundry kiloan, express, cuci sepatu, tas & perlengkapan rumah tangga terbaik di sekitar Kampus UMP Purwokerto. Menjamin 1 mesin 1 pelanggan dan hasil bersih higienis wangi tahan lama.
+                    </p>
+                </div>
+
+                <div>
+                    <h5 class="text-white font-bold text-sm mb-3">Layanan Populer</h5>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#layanan" class="hover:text-emerald-400 transition-colors">Cuci Komplit Reguler</a></li>
+                        <li><a href="#layanan" class="hover:text-emerald-400 transition-colors">Cuci Kilat 24 Jam & Sameday</a></li>
+                        <li><a href="#layanan" class="hover:text-emerald-400 transition-colors">Cuci Sepatu & Sandal Sneaker</a></li>
+                        <li><a href="#layanan" class="hover:text-emerald-400 transition-colors">Cuci Bed Cover & Selimut Tebal</a></li>
+                        <li><a href="#layanan" class="hover:text-emerald-400 transition-colors">Paket Hemat Bulanan Mahasiswa</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-white font-bold text-sm mb-3">Navigasi Cepat</h5>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#beranda" class="hover:text-emerald-400 transition-colors">Beranda</a></li>
+                        <li><a href="#keunggulan" class="hover:text-emerald-400 transition-colors">Keunggulan Layanan</a></li>
+                        <li><a href="#galeri" class="hover:text-emerald-400 transition-colors">Galeri Workshop</a></li>
+                        <li><a href="#kalkulator" class="hover:text-emerald-400 transition-colors">Kalkulator Biaya</a></li>
+                        <li><a href="#testimoni" class="hover:text-emerald-400 transition-colors">Ulasan Pelanggan</a></li>
+                        <li><a href="#faq" class="hover:text-emerald-400 transition-colors">Tanya Jawab (FAQ)</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+                <p>&copy; 2026 Goklin Laundry UMP Purwokerto. All rights reserved.</p>
+                <div class="flex items-center gap-4 text-sm">
+                    <a href="https://instagram.com" target="_blank" class="hover:text-emerald-400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="hover:text-emerald-400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://wa.me/6281234567890" target="_blank" class="hover:text-emerald-400"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Button -->
+    <a href="https://wa.me/6281234567890?text=Halo%20Goklin%20Laundry%20UMP,%20saya%20mau%20order%20laundry%20dan%20minta%20dijemput" target="_blank" class="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-3.5 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 group border-2 border-white/40">
+        <div class="relative">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            <span class="absolute -top-1 -right-1 w-3 h-3 bg-amber-400 rounded-full border-2 border-emerald-500"></span>
+        </div>
+        <span class="font-bold text-xs sm:text-sm pr-1">Chat Kurir (Online)</span>
+    </a>
+
+    <!-- Interactive JavaScript Logic -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Tab Switching
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-pane').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.tab-btn').forEach(el => {
+                el.classList.remove('bg-emerald-600', 'text-white', 'shadow-md');
+                el.classList.add('bg-white', 'text-slate-700', 'hover:bg-slate-100');
+            });
+
+            const activeContent = document.getElementById('tab-' + tabId);
+            const activeBtn = document.getElementById('tab-btn-' + tabId);
+
+            if (activeContent) activeContent.classList.remove('hidden');
+            if (activeBtn) {
+                activeBtn.classList.add('bg-emerald-600', 'text-white', 'shadow-md');
+                activeBtn.classList.remove('bg-white', 'text-slate-700', 'hover:bg-slate-100');
+            }
+        }
+
+        // FAQ Toggle
+        function toggleFaq(btn) {
+            const content = btn.nextElementSibling;
+            const icon = btn.querySelector('i');
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+
+        // Calculator Logic
+        function updateQty(val) {
+            const selectEl = document.getElementById('calc-service');
+            const selectedOption = selectEl.options[selectEl.selectedIndex];
+            const unit = selectedOption.getAttribute('data-unit') || 'Kg';
+            document.getElementById('calc-qty-val').innerText = val + ' ' + unit;
+            document.getElementById('calc-summary-qty').innerText = val + ' ' + unit;
+            calculatePrice();
+        }
+
+        function calculatePrice() {
+            const selectEl = document.getElementById('calc-service');
+            const selectedOption = selectEl.options[selectEl.selectedIndex];
+            const pricePerUnit = parseInt(selectedOption.value, 10);
+            const serviceName = selectedOption.getAttribute('data-name');
+            const unit = selectedOption.getAttribute('data-unit') || 'Kg';
+            const qty = parseInt(document.getElementById('calc-qty').value, 10);
+
+            document.getElementById('calc-unit-label').innerText = unit;
+            document.getElementById('calc-summary-service').innerText = serviceName;
+            document.getElementById('calc-summary-qty').innerText = qty + ' ' + unit;
+            document.getElementById('calc-qty-val').innerText = qty + ' ' + unit;
+
+            const total = pricePerUnit * qty;
+            document.getElementById('calc-total').innerText = 'Rp ' + total.toLocaleString('id-ID');
+        }
+
+        function orderViaCalc() {
+            const selectEl = document.getElementById('calc-service');
+            const selectedOption = selectEl.options[selectEl.selectedIndex];
+            const serviceName = selectedOption.getAttribute('data-name');
+            const unit = selectedOption.getAttribute('data-unit') || 'Kg';
+            const qty = document.getElementById('calc-qty').value;
+            const isStudent = document.getElementById('calc-student').checked ? 'Ya (Mahasiswa UMP)' : 'Bukan';
+            const total = document.getElementById('calc-total').innerText;
+
+            const message = `Halo Goklin Laundry UMP,%0A%0ASaya ingin order laundry dengan rincian berikut:%0A- *Layanan:* ${serviceName}%0A- *Estimasi Jumlah:* ${qty} ${unit}%0A- *Status Mahasiswa UMP:* ${isStudent}%0A- *Estimasi Total:* ${total}%0A%0AMohon info penjemputan ke kost/rumah saya. Terima kasih!`;
+            window.open(`https://wa.me/6281234567890?text=${message}`, '_blank');
+        }
+
+        function handleHeroSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('hero-name').value;
+            const address = document.getElementById('hero-address').value;
+            const service = document.getElementById('hero-service').value;
+            const qty = document.getElementById('hero-qty').value || 'Belum ditimbang';
+
+            const message = `Halo Goklin Laundry UMP,%0A%0ASaya mau request penjemputan cucian:%0A- *Nama:* ${name}%0A- *Alamat / Kost:* ${address}%0A- *Layanan:* ${service}%0A- *Estimasi Berat/Qty:* ${qty}%0A%0ATolong segera diproses ya!`;
+            window.open(`https://wa.me/6281234567890?text=${message}`, '_blank');
+        }
+    </script>
+</body>
+</html>
+
